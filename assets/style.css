@@ -1,0 +1,83 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  
+}
+
+header .cabecalho-yt {
+    width: 1912px;
+    height: 56px;
+    justify-content: space-between;
+    
+
+}
+
+header .cabecalho-yt img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    left: -20px;
+    padding: 6px 3px 6px 3px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#logo-yt {
+    width: 90px;
+    height: 20px;
+    top: -49px;
+    left: 21px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#barra-pesquisa {
+    width: 348px;
+    height: 40px;
+    top: -120px;
+    left: 751px;
+}
+
+#itens-direita {
+    display: flex;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    top: -184px;
+    left: 1700px;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.sidebar figure img {
+    display: flex;
+    position: relative;
+    width:218px;
+    height:968px;
+    top: 56px;
+    left: -47px;
+    padding: 24px 0px 0px 0px;
+}
+.container{
+    display: grid;
+    position: relative;
+    width: 1800px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 300px);
+    top: -930px;
+    left: 434px;
+    gap: 10px;
+    
+}
+.container figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+    
